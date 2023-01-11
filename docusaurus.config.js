@@ -112,14 +112,9 @@ const config = {
                 label: 'Customer Story',
                 href: 'customer-stories-page',
               },
-              {
-                label: 'Cases Studies',
-                to: '/contribution-guidelines',
-              },
               // {
-              //   label: '更多活动',
-              //   type: 'doc',
-              //   docId: 'intro',
+              //   label: 'Cases Studies',
+              //   to: '/contribution-guidelines',
               // },
               {
                 label: 'Docs',
@@ -148,14 +143,14 @@ const config = {
                 label: 'Shareing',
                 to: '/contribution-guidelines',
               },
-              {
-                label: 'Discuss',
-                to: '/contribution-guidelines',
-              },
-              {
-                label: 'Subscribe',
-                to: '/contribution-guidelines',
-              },
+              // {
+              //   label: 'Discuss',
+              //   to: '/contribution-guidelines',
+              // },
+              // {
+              //   label: 'Subscribe',
+              //   to: '/contribution-guidelines',
+              // },
             ]
           },
 
