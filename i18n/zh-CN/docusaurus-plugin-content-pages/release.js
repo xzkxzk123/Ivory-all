@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Releaseimg from '../../svg/img-release.svg';
-import Up from '../../svg/icon-btn-up.svg';
-import Down from '../../svg/icon-btn-down.svg';
+import Releaseimg from '../../../svg/img-release.svg';
+import Up from '../../../svg/icon-btn-up.svg';
+import Down from '../../../svg/icon-btn-down.svg';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import './release.css';
 function Release() {
@@ -61,7 +61,7 @@ function Release() {
                         </div>
                         <div class="content-highgo">
                             <div>
-                                <img src={require('../../svg/logo-hg.jpg').default} class="release-left-img" alt="" />
+                                <img src={require('../../../svg/logo-hg.jpg').default} class="release-left-img" alt="" />
                             </div>
                             <div class="content-highgo-line"></div>
                             <div class="YUM">瀚高YUM库  →</div>
