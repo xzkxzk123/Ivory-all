@@ -12,7 +12,7 @@ function Release() {
             <div class="release-left">
                 <div class="release-left-uppertitle">
                     <div class="colorblock"></div>
-                    <div class="uppertile-font">IvorySQL Releases</div>
+                    <div class="uppertile-font">IvorySQL 版本</div>
                 </div>
                 <div class="release-left-timeline">
                     <div class="timeline-line">
@@ -31,22 +31,22 @@ function Release() {
                     </div>
                     <div class="alltimeline">
                         <div class="timeline-15">
-                            <span class="timeline-date">09/09</span><a href="/ivorysql-v1-5-release-page"><span class="timeline-edition">IvorySQL 1.5 STABLE</span></a><span class="timeline-new">New!</span>
+                            <span class="timeline-date">09/09</span><a href="/ivorysql-v1-5-release-page"><span class="timeline-edition">IvorySQL 1.5 稳定版</span></a><span class="timeline-new">New!</span>
                         </div>
                         <div class="timeline-14">
-                            <span class="timeline-date">06/28</span><a href="ivorysql-v1-4-release-page"><span class="timeline-edition">IvorySQL 1.4 STABLE</span></a>
+                            <span class="timeline-date">06/28</span><a href="ivorysql-v1-4-release-page"><span class="timeline-edition">IvorySQL 1.4 稳定版</span></a>
                         </div>
                         <div class="timeline-13">
-                            <span class="timeline-date">05/27</span><a href="ivorysql-v1-3-release-page"><span class="timeline-edition">IvorySQL 1.3 STABLE</span></a>
+                            <span class="timeline-date">05/27</span><a href="ivorysql-v1-3-release-page"><span class="timeline-edition">IvorySQL 1.3 稳定版</span></a>
                         </div>
                         <div class="timeline-12">
-                            <span class="timeline-date">02/28</span><a href="ivorysql-v1-2-release-page"><span class="timeline-edition">IvorySQL 1.2 STABLE</span></a>
+                            <span class="timeline-date">02/28</span><a href="ivorysql-v1-2-release-page"><span class="timeline-edition">IvorySQL 1.2 稳定版</span></a>
                         </div>
                         <div class="timeline-11">
-                            <span class="timeline-date">01/25</span><a href="ivorysql-v1-1-release-page"><span class="timeline-edition">IvorySQL 1.1 STABLE</span></a>
+                            <span class="timeline-date">01/25</span><a href="ivorysql-v1-1-release-page"><span class="timeline-edition">IvorySQL 1.1 稳定版</span></a>
                         </div>
                         <div class="timeline-10">
-                            <span class="timeline-date">12/15</span><a href="ivorysql-v1-0-release-page"><span class="timeline-edition">IvorySQL 1.0 STABLE</span></a>
+                            <span class="timeline-date">12/15</span><a href="ivorysql-v1-0-release-page"><span class="timeline-edition">IvorySQL 1.0 稳定版</span></a>
                         </div>
                     </div>
                 </div>
@@ -56,18 +56,18 @@ function Release() {
                     <div class="release-left-content">
                         <div class="content-title">
                             <div class="colorblock"></div>
-                            <div class="uppertile-font">Packages</div>
-                            <div class="content-title-font">Maintainer</div>
+                            <div class="uppertile-font">包</div>
+                            <div class="content-title-font">赞助提供者</div>
                         </div>
                         <div class="content-highgo">
                             <div>
                                 <img src={require('../../svg/logo-hg.jpg').default} class="release-left-img" alt="" />
                             </div>
                             <div class="content-highgo-line"></div>
-                            <div class="YUM">Link</div>
+                            <div class="YUM">瀚高YUM库  →</div>
                         </div>
                         <div class="content-font">
-                            <span>To provide IvorySQL packages contact</span><span>support@ivorysql.org</span>
+                            <span>有意提供IvorySQL下载服务的公司或个人,请联系</span><span>support@ivorysql.org</span>
                         </div>
                     </div>
                 </div>

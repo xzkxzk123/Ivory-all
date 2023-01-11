@@ -92,7 +92,7 @@ const config = {
           },
           {
             label: 'Releases',
-            to: '/release-copy',
+            to: '/release',
             position: 'left'
           }, 
           {
@@ -230,7 +230,7 @@ const config = {
               },
               {
                 label: 'Quick Starts',
-                href: '/',
+                href: '/Docs',
               },
               {
                 label: 'Release Notes',
