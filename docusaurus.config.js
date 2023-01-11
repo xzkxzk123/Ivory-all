@@ -118,7 +118,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: '社区',
+            label: 'Community',
             items: [
               {
                 label: 'Code Of Conduct',

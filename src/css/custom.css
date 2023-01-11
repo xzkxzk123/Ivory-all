@@ -42,7 +42,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 .navbar .navbar__items {
   border: white;
-  width: 18.5em;
+  width: 18.9em;
 }
 /* .navbar__inner{
   position: absolute;
@@ -50,7 +50,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 85%;
 } */
 .navbar__link{
-  font-size: 0.62em;
+  font-size: 0.61em;
   font-family: Microsoft YaHei;
   font-weight: 520;
   color: #333333;
