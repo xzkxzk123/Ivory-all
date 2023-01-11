@@ -15,7 +15,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'IvorySQL', // Usually your GitHub org/user name.
-  projectName: 'ivory-www', // Usually your repo name.
+  // projectName: 'ivory-www', // Usually your repo name.
 
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
       ({
         docs: {
           versions: {
-            current: {label: '1.5',},
+            current: {label: 'Docs',},
           },
           sidebarPath: require.resolve('./sidebars.js'),
 //          editUrl: 'https://github.com/IvorySQL/Ivory-www/tree/main/docs',
@@ -42,18 +42,6 @@ const config = {
         },
       }),
     ],
-    // [
-    //   'content-docs',
-    //   /** @type {import('@docusaurus/plugin-content-docs').Options} */
-    //   ({
-    //     id: 'community',
-    //     path: 'community',
-    //     routeBasePath: 'community',
-    //     editCurrentVersion: true,
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   }),
-    // ],
   ],
   i18n: {
     defaultLocale: 'en',
@@ -69,12 +57,12 @@ const config = {
           src: 'img/logo-black.svg',
         },
         items: [
-          {
-            label: 'Docs',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left'
-          },
+          // {
+          //   label: '文档',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left'
+          // },
           {
             type: 'docsVersionDropdown',
             position: 'left',
@@ -110,22 +98,27 @@ const config = {
               },
               {
                 label: 'Customer Story',
-                href: 'customer-stories-page',
+                href: '/customer-stories-page',
+              },
+              {
+                label: 'Cases Studies',
+                to: '/contribution-guidelines',
               },
               // {
-              //   label: 'Cases Studies',
-              //   to: '/contribution-guidelines',
+              //   label: '更多活动',
+              //   type: 'doc',
+              //   docId: 'intro',
               // },
               {
                 label: 'Docs',
-                to: '/contribution-guidelines',
+                to: '/release',
               },
             ]
           },
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Community',
+            label: '社区',
             items: [
               {
                 label: 'Code Of Conduct',
@@ -143,14 +136,14 @@ const config = {
                 label: 'Shareing',
                 to: '/contribution-guidelines',
               },
-              // {
-              //   label: 'Discuss',
-              //   to: '/contribution-guidelines',
-              // },
-              // {
-              //   label: 'Subscribe',
-              //   to: '/contribution-guidelines',
-              // },
+              {
+                label: 'Discuss',
+                to: '/contribution-guidelines',
+              },
+              {
+                label: 'Subscribe',
+                to: '/contribution-guidelines',
+              },
             ]
           },
 
@@ -176,6 +169,7 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
+            id: 'localeDropdown',
           },
           // {
           //   label: '版本',
@@ -200,7 +194,7 @@ const config = {
               },
               {
                 label: 'Legal Notices',
-                to: '/building',
+                to: '/blog',
               },
               {
                 label: 'Problem Feedback',
@@ -213,7 +207,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                href: '/Docs',
+                href: '/docs/next/intro',
               },
               {
                 label: 'Blogs',
@@ -225,7 +219,7 @@ const config = {
               },
               {
                 label: 'Quick Starts',
-                href: '/Docs',
+                href: '/',
               },
               {
                 label: 'Release Notes',
@@ -241,7 +235,7 @@ const config = {
               },
               {
                 label: 'Cases Studies',
-                href: 'https://twitter.com/IvorySQL',
+                href: '/contribution-guidelines',
               },
             ],
           },
@@ -254,7 +248,7 @@ const config = {
               },
               {
                 label: 'Contribute Documents',
-                href: '/Docs',
+                href: '/blog',
               },
               {
                 label: 'Github',
@@ -285,9 +279,9 @@ const config = {
                  html: `
                   <div class="other-footer">
                     <div class="other-footer-title">Subscribe to Our Newsletter</div>
-                    <a href="https://lists.ivorysql.org/postorius/lists" id="other-footer-link">
-                        <span class="other-footer-linkspan">Subscribe</span>
-                    </a>
+                      <a href="https://lists.ivorysql.org/postorius/lists" id="other-footer-link">
+                          <span class="other-footer-linkspan">Subscribe</span>
+                      </a>
                     <div class="other-footer-font">
                       <span class="other-footer-font-left">提交即表示您同意</span>
                       <span class="other-footer-font-right">IvorySQL的隐私政策</span>
@@ -327,7 +321,7 @@ const config = {
                   </div>
                   <div class="footer__copyright">Copyright © ${new Date().getFullYear()} IvorySQL.</div>
                   `
-                },  
+              },  
             ]
           },
         ],
