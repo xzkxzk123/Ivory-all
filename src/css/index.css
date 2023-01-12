@@ -1,7 +1,7 @@
 .Outer-layer{
   display: flex;
   justify-content: center;
-  /* background-color: rgb(26, 0, 102); */
+  background-color: rgb(26, 0, 102);
 }
 .homepage-header{
   width: 100vw;
@@ -15,7 +15,7 @@
 .header-font{
   width: 55%;
   height: 1em;
-  position: relative;
+  position: relative; 
   top: 122px;
   left: 200px;
 }
@@ -304,6 +304,10 @@
     top: 30px;
     left: 40%;
   }
+  #Link{
+    position: relative;
+    top: 30%;
+  }
 }
 @media screen and (max-width: 420px) {
   .homepage-header{
@@ -312,9 +316,17 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .homepage-header{
+    background-image: url(../../svg/banner/banner-balloon-mobile\(1\).png);
+    height: 14em;
+  }
   .header-font{
     position: relative;
     top: 30px;
     left: 50%;
+  }
+  #Link{
+    position: relative;
+    top: 35%;
   }
 }

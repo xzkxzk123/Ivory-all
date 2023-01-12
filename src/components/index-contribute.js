@@ -6,7 +6,7 @@ import '../css/index-contribute.css';
 export default class IndexContribute extends Component {
     render () {
         return (
-            <div class="Outer-layer">
+            <div class="Outer-layer-contribute">
                 <div class="contribute">
                     {/* <div class="contribute-girl">
                        <img src={require('../../svg/img-started-left.jpg').default} alt="" />
