@@ -1,10 +1,16 @@
-
+.Outer-layer{
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(26, 0, 102); */
+}
 .homepage-header{
+  width: 100vw;
   height: 28em;
   background-image: url(../../svg/banner/banner-balloon-web.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: grid;
+  max-width: 2000px;
 }
 .header-font{
   width: 55%;
@@ -88,7 +94,7 @@
   right: 18%;
 }
 @media screen and (min-width: 1595px) {
-  #id-homepage-header{
+  .homepage-header{
     height: 37em;
   }
 }
@@ -150,12 +156,12 @@
   }
 }
 @media screen and (max-width: 1185px) {
-  #id-homepage-header {
+  .homepage-header {
     height: 23em;
   }
 }
 @media screen and (max-width: 997px) {
-  #id-homepage-header {
+  .homepage-header {
     height: 23em;
   }
   .header-font{
@@ -190,7 +196,7 @@
   }
 }
 @media screen and (max-width: 850px) {
-  #id-homepage-header{
+  .homepage-header{
     height: 20em;
   }
   .header-font{
@@ -203,7 +209,7 @@
   }
 }
 @media screen and (max-width: 753px) {
-  #id-homepage-header{
+  .homepage-header{
     height: 18em;
   }
   .header-title{
@@ -219,7 +225,7 @@
   }
 }
 @media screen and (max-width: 660px) {
-  #id-homepage-header{
+  .homepage-header{
     background-image: url(../../svg/banner/banner-balloon-mobile.png);
     height: 18em;
   }
@@ -249,7 +255,7 @@
   }
 }
 @media screen and (max-width: 560px) {
-  #id-homepage-header{
+  .homepage-header{
     background-image: url(../../svg/banner/banner-balloon-mobile.png);
     height: 16em;
   }
@@ -279,7 +285,7 @@
   }
 }
 @media screen and (max-width: 480px) {
-  #id-homepage-header{
+  .homepage-header{
     height: 14em;
   }
   .header-font{
@@ -300,11 +306,8 @@
   }
 }
 @media screen and (max-width: 420px) {
-  #id-homepage-header{
+  .homepage-header{
     background-image: url(../../svg/banner/banner-balloon-mobile\(1\).png);
-    height: 16em;
-  }
-  #id-homepage-header{
     height: 16em;
   }
 }

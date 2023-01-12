@@ -1,6 +1,10 @@
-
+.Outer-layer{
+    display: flex;
+    justify-content: center;
+}
 .contribute{
-    /* width: 98.776vw; */
+    width: 100vw;
+    max-width: 1850px;
     height: 410px;
     display: flex;
     justify-content: center;
@@ -38,7 +42,7 @@
 .contribute-font{
     width: 456px;
     height: 32px;
-    font-size: 2vh;
+    font-size: 1em;
     font-family: Microsoft YaHei;
     font-weight: 550;
     color: #333333;

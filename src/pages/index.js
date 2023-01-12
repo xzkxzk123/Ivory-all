@@ -13,6 +13,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 function HomepageHeader() {
   return (
+    <div class="Outer-layer">
     <div class="homepage-header" id="id-homepage-header">
         <div class="header-font">
             <p class="header-title">
@@ -38,6 +39,7 @@ function HomepageHeader() {
         </div>
       </div>
     </div>
+    </div>
   );
 }
 
@@ -49,7 +51,7 @@ export default function Home() {
       id="Ivory"
       description="Open Source Oracle compatible PostgreSQL">
       <main>
-      <HomepageHeader />
+      <HomepageHeader></HomepageHeader>
       <IndexIntroduce></IndexIntroduce>
       <IndexActivity></IndexActivity>
       <IndexContribute></IndexContribute>
