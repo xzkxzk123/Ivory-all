@@ -114,7 +114,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 .footer__link-item{ 
   color: #FFFFFF;
-  font-size: 5px;
+  font-size: 0.8em;
 }
 .navbar__item .navbar__link .Try-for-Free :hover{
   color: black;
