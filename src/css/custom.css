@@ -67,7 +67,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 12px;
   font-family: Gilroy;
   font-weight:bolder;
-  padding: 4px 1px 1px 25px;
+  padding: 4px 1px 1px 32px;
   position: relative;
   right: 10%;
 }
@@ -96,7 +96,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 24px;
   height: 24px;
   position: relative;
-  right:65px;
+  right:40px;
 }
 .earth{
   background-image: url(../../svg/icon-earth.svg);

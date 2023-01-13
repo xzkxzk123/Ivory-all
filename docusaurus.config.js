@@ -44,7 +44,7 @@ const config = {
       ({
         docs: {
           versions: {
-            current: {label: 'Docs',},
+            current: {label: 'Devel',},
           },
           sidebarPath: require.resolve('./sidebars.js'),
 //          editUrl: 'https://github.com/IvorySQL/Ivory-www/tree/main/docs',
@@ -77,27 +77,17 @@ const config = {
           src: 'img/logo-black.svg',
         },
         items: [
-          // {
-          //   label: '文档',
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left'
-          // },
           {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            nextVersionLabel: '1.5',
+            label: 'Docs',
+            type: 'doc',
+            docId: 'intro',
+            position: 'left'
           },
           {
             to: '/blog',
             label: 'Blog',
             position: 'left'
           },
-          // {
-          //   to: '/activity',
-          //   label: 'acticity',
-          //   position: 'left'
-          // },
           {
             label: 'Download',
             href: 'https://github.com/IvorySQL/IvorySQL/releases',
@@ -134,6 +124,10 @@ const config = {
               //   type: 'doc',
               //   docId: 'intro',
               // },
+              {
+                to: '/docs/Compatibillity_Features/oneday-page',
+                label: 'Activity',
+              },
               {
                 label: 'Docs',
                 to: '/release',
@@ -178,11 +172,11 @@ const config = {
              position:'right',
              className:'github',
           },
-          {
-            href:'https://earth.com',
-            position:'right',
-            className:'earth',
-          },
+          // {
+          //   href:'https://earth.com',
+          //   position:'right',
+          //   className:'earth',
+          // },
           {
             to: 'https://github.com/IvorySQL/IvorySQL',
             label: 'Try for Free',
@@ -201,6 +195,11 @@ const config = {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'left',
+            nextVersionLabel: '1.5',
+          },
         ],
       },
       footer: {
