@@ -160,11 +160,11 @@ const config = {
               },
             ]
           },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            nextVersionLabel: '1.5',
-          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'left',
+          //   nextVersionLabel: '1.5',
+          // },
 
           //Right Side Items
           {
