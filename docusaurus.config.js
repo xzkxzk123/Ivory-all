@@ -77,12 +77,12 @@ const config = {
           src: 'img/logo-black.svg',
         },
         items: [
-          // {
-          //   label: 'Docs',
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left'
-          // },
+          {
+            label: 'Docs',
+            type: 'doc',
+            docId: 'intro',
+            position: 'left'
+          },
           {
             to: '/blog',
             label: 'Blog',
@@ -119,10 +119,10 @@ const config = {
                 label: 'Cases Studies',
                 to: '/contribution-guidelines',
               },
-              // {
-              //   to: '/docs/Compatibillity_Features/oneday-page',
-              //   label: 'Activity',
-              // },
+              {
+                to: '/docs/Compatibillity_Features/oneday-page',
+                label: 'Activity',
+              },
               {
                 label: 'Docs',
                 to: '/release',
@@ -160,11 +160,11 @@ const config = {
               },
             ]
           },
-          // {
-          //   type: 'docsVersionDropdown',
-          //   position: 'left',
-          //   nextVersionLabel: '1.5',
-          // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'left',
+            nextVersionLabel: '1.5',
+          },
 
           //Right Side Items
           {
