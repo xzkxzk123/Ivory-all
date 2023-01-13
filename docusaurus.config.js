@@ -4,7 +4,28 @@
 // import Link from '@docusaurus/Link';
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+module.exports = {
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'activity',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'activity',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './activity',
+      },
+    ],
+  ],
+};
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'IvorySQL',
@@ -16,7 +37,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'IvorySQL', // Usually your GitHub org/user name.
   // projectName: 'ivory-www', // Usually your repo name.
-
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -71,6 +91,11 @@ const config = {
           {
             to: '/blog',
             label: 'Blog',
+            position: 'left'
+          },
+          {
+            to: '/activity',
+            label: 'acticity',
             position: 'left'
           },
           {
