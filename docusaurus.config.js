@@ -77,12 +77,12 @@ const config = {
           src: 'img/logo-black.svg',
         },
         items: [
-          {
-            label: 'Docs',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left'
-          },
+          // {
+          //   label: 'Docs',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left'
+          // },
           {
             to: '/blog',
             label: 'Blog',
@@ -160,6 +160,11 @@ const config = {
               },
             ]
           },
+          {
+            type: 'docsVersionDropdown',
+            position: 'left',
+            nextVersionLabel: '1.5',
+          },
 
           //Right Side Items
           {
@@ -190,11 +195,6 @@ const config = {
           //   type: 'localeDropdown',
           //   position: 'right',
           // },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            nextVersionLabel: '1.5',
-          },
         ],
       },
       footer: {
