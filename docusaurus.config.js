@@ -93,11 +93,11 @@ const config = {
             label: 'Blog',
             position: 'left'
           },
-          {
-            to: '/activity',
-            label: 'acticity',
-            position: 'left'
-          },
+          // {
+          //   to: '/activity',
+          //   label: 'acticity',
+          //   position: 'left'
+          // },
           {
             label: 'Download',
             href: 'https://github.com/IvorySQL/IvorySQL/releases',
