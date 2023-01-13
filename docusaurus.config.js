@@ -121,7 +121,7 @@ const config = {
               },
               {
                 to: '/docs/Compatibillity_Features/oneday-page',
-                label: 'Activity',
+                label: 'activity',
               },
               {
                 label: 'Docs',

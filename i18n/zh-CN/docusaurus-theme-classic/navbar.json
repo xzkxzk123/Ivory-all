@@ -43,6 +43,14 @@
     "message": "文档",
     "description": "Navbar item with label Docs"
   },
+  "item.label.Devel": {
+    "message": "开发者版",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.acticity": {
+    "message": "活动",
+    "description": "Navbar item with label Docs"
+  },
   "item.label.Code Of Conduct": {
     "message": "行为准则",
     "description": "Navbar item with label Code Of Conduct"
