@@ -120,14 +120,9 @@ const config = {
                 to: '/contribution-guidelines',
               },
               // {
-              //   label: '更多活动',
-              //   type: 'doc',
-              //   docId: 'intro',
+              //   to: '/docs/Compatibillity_Features/oneday-page',
+              //   label: 'Activity',
               // },
-              {
-                to: '/docs/Compatibillity_Features/oneday-page',
-                label: 'Activity',
-              },
               {
                 label: 'Docs',
                 to: '/release',
