@@ -60,16 +60,16 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   height: 20%;
 }
 #TtyForFree{
-  width: 60%;
+  width: 130px;
   height: 80%;
   background: #FFD673;
   border-radius: 3px;
   font-size: 12px;
   font-family: Gilroy;
   font-weight:bolder;
-  padding: 4px 1px 1px 32px;
+  padding: 4px 1px 1px 24px;
   position: relative;
-  right: 10%;
+  right: 1%;
 }
 #TtyForFree:hover{
   color: black;
@@ -96,15 +96,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 24px;
   height: 24px;
   position: relative;
-  right:40px;
+  right:10px;
 }
-.earth{
+/* .earth{
   background-image: url(../../svg/icon-earth.svg);
   width: 24px;
   height: 24px;
   position: relative;
   right:52px;
-}
+} */
 .footer{
   min-width: 1vw;
   background: #363131;
@@ -155,12 +155,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .other-footer-linkspan{
   width: 53px;
   height: 15px;
-  font-size: 10px;
-  font-family: Gilroy;
+  font-size: 0.7em;
+  /* font-family: Gilroy; */
   font-weight: 800;
   color: #333333;
-  line-height: 14px;
-  margin: 30px 10px 30px 10px;
+  margin: 30px 10px 30px 11px;
 }
 .other-footer-font{
   position: relative;
@@ -169,7 +168,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .other-footer-font-left{
   width: 138px;
   height: 8px;
-  font-size: 7px;
+  font-size: 0.8em;
   font-family: Microsoft YaHei;
   font-weight: 400;
   color: #E4E4E4;
@@ -178,7 +177,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .other-footer-font-right{
   width: 138px;
   height: 8px;
-  font-size: 7px;
+  font-size: 0.9em;
   font-family: Microsoft YaHei;
   font-weight: 800;
   color: #E4E4E4;
@@ -240,15 +239,39 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-image: url(../../svg/icon-bilibili.svg);
 }
 .footer__copyright{
-  width: 160px;
+  width: 200px;
   height: 7px;
-  font-size: 7px;
+  font-size: 0.8em;
   font-family: Gilroy;
-  font-weight: 300;
+  font-weight: 600;
   color: #E4E4E4;
   line-height: 14px;
   position: relative;
   bottom: 100px;
+}
+/* .other-footer-bottom{
+  display: flex;
+} */
+.weixin-card{
+  width: 130px;
+  height: 100px;
+  background-color: #f4f4f5;
+  position: absolute;
+  left: 1058px;
+  top: 2210px;
+  border-radius: 10px;
+  /* display: none; */
+  visibility: hidden;
+}
+.backgruond-weixin:hover .weixin-card{
+  visibility: visible;
+}
+.navbar__inner .navbar__items--right div:nth-child(4){
+  display: none;
+}
+.navbar__inner .navbar__items--right{
+  position: relative;
+  left: 16px;
 }
 @media screen and (max-width: 997px) {
   .air {
@@ -258,46 +281,46 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     width: 100%;
   }
   #TtyForFree{
-    width: 32%;
+    width: 120px;
     height: 100%;
     background: #FFD673;
     border-radius: 3px;
     font-size: 2px;
     font-family: Gilroy;
     font-weight: bolder;
-    padding: 2% 0% 2% 8vw;
+    padding: 2% 0% 2% 25px;
     position: relative;
-    top: -20px;
     left: 4%;
+  }
+  .github{
+    display: none;
   }
 }
 @media screen and (max-width: 550px) {
   #TtyForFree{
-    width: 32%;
+    width: 120px;
     height: 100%;
     background: #FFD673;
     border-radius: 3px;
     font-size: 2px;
     font-family: Gilroy;
     font-weight: bolder;
-    padding: 2% 0% 2% 7vw;
+    padding: 2% 0% 2% 25px;
     position: relative;
-    top: -20px;
     left: 4%;
   }
 }
 @media screen and (max-width: 465px) {
   #TtyForFree{
-    width: 32%;
+    width: 120px;
     height: 100%;
     background: #FFD673;
     border-radius: 3px;
     font-size: 2px;
     font-family: Gilroy;
     font-weight: bolder;
-    padding: 2% 0% 2% 4vw;
+    padding: 2% 0% 2% 25px;
     position: relative;
-    top: -20px;
     left: 4%;
   }
 }

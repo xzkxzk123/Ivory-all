@@ -121,11 +121,11 @@ const config = {
               },
               {
                 to: '/docs/Compatibillity_Features/oneday-page',
-                label: 'activity',
+                label: 'Activity',
               },
               {
                 label: 'Docs',
-                to: '/release',
+                to: '/docs/next/intro',
               },
             ]
           },
@@ -135,7 +135,7 @@ const config = {
             label: 'Community',
             items: [
               {
-                label: 'Code Of Conduct',
+                label: 'Code of Conduct',
                 to: '/webinars-page',
               },
               {
@@ -160,11 +160,11 @@ const config = {
               },
             ]
           },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
-            nextVersionLabel: 'Devel',
-          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'left',
+          //   nextVersionLabel: 'Devel',
+          // },
 
           //Right Side Items
           {
@@ -172,11 +172,6 @@ const config = {
              position:'right',
              className:'github',
           },
-          // {
-          //   href:'https://earth.com',
-          //   position:'right',
-          //   className:'earth',
-          // },
           {
             to: 'https://github.com/IvorySQL/IvorySQL',
             label: 'Try for Free',
@@ -190,11 +185,6 @@ const config = {
             dropdownActiveClassDisabled: true,
             id: 'localeDropdown',
           },
-          // {
-          //   label: '版本',
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -317,7 +307,7 @@ const config = {
                         </a>
                       </div>
                       <div class="other-footer-svg">
-                        <a href="https://join.slack.com/t/ivorysql/shared_invite/zt-13shkgnsj-4kNUBnBNrg2fPhyjtMmz7A" class="other-footer-svg-link">
+                        <a href="https://slack.com/intl/zh-cn/" class="other-footer-svg-link">
                           <div class="backgruond-slack"></div>
                         </a>
                       </div>
@@ -338,7 +328,7 @@ const config = {
                       </div>
                     </div>
                   </div>
-                  <div class="footer__copyright">Copyright © ${new Date().getFullYear()} IvorySQL.</div>
+                    <div class="footer__copyright">Copyright © ${new Date().getFullYear()} IvorySQL.</div>
                   `
               },  
             ]
