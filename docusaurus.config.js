@@ -77,11 +77,15 @@ const config = {
           src: 'img/logo-black.svg',
         },
         items: [
+          // {
+          //   label: 'Docs',
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left'
+          // },
           {
             label: 'Docs',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left'
+            to: '/docs/next/intro',
           },
           {
             to: '/blog',
