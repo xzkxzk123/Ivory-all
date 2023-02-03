@@ -35,7 +35,7 @@ export default class IndexActivity extends Component {
                             <Link 
                                 className="button"
                                 id="link-oneday"
-                                to="/docs/Compatibillity_Features/oneday-page">
+                                to="/building">
                                   <span>+</span>
                                   <div>More</div>
                             </Link>

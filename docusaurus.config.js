@@ -123,10 +123,10 @@ const config = {
                 label: 'Cases Studies',
                 to: '/contribution-guidelines',
               },
-              {
-                to: '/docs/Compatibillity_Features/oneday-page',
-                label: 'Activity',
-              },
+              // {
+              //   to: '/docs/Compatibillity_Features/oneday-page',
+              //   label: 'Activity', 
+              // },
               {
                 label: 'Docs',
                 to: '/docs/next/intro',
@@ -164,11 +164,11 @@ const config = {
               },
             ]
           },
-          // {
-          //   type: 'docsVersionDropdown',
-          //   position: 'left',
-          //   nextVersionLabel: 'Devel',
-          // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'left',
+            nextVersionLabel: 'Devel',
+          },
 
           //Right Side Items
           {
@@ -176,18 +176,19 @@ const config = {
              position:'right',
              className:'github',
           },
+
+          {
+            type: 'localeDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+            id: 'localeDropdown',
+          },
           {
             to: 'https://github.com/IvorySQL/IvorySQL',
             label: 'Try for Free',
             position: 'right',
             className: 'Try-for-Free',
             id: 'TtyForFree',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-            dropdownActiveClassDisabled: true,
-            id: 'localeDropdown',
           },
         ],
       },
