@@ -42,7 +42,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 .navbar .navbar__items {
   border: white;
-  width: 20em;
+  width: 13em;
 }
 .navbar__link{
   font-size: 0.7em;
@@ -67,7 +67,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 12px;
   font-family: Gilroy;
   font-weight:bolder;
-  padding: 4px 1px 1px 24px;
+  padding: 4px 1px 1px 8px;
   position: relative;
   right: 1%;
 }
@@ -272,6 +272,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .navbar__inner .navbar__items--right{ 
   position: relative;
   left: 16px;
+}
+#chen{
+  width: 20px;
 }
 @media screen and (max-width: 997px) {
   .air {

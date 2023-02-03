@@ -44,7 +44,7 @@ const config = {
       ({
         docs: {
           versions: {
-            current: {label: 'Devel',},
+            current: {label: 'v.Devel',},
           },
           sidebarPath: require.resolve('./sidebars.js'),
 //          editUrl: 'https://github.com/IvorySQL/Ivory-www/tree/main/docs',
@@ -181,7 +181,7 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
-            id: 'localeDropdown',
+            id: 'chen',
           },
           {
             to: 'https://github.com/IvorySQL/IvorySQL',
