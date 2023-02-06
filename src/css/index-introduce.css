@@ -2,7 +2,7 @@
 .index-introduce{
     /* width: 98.776vw; */
     /* min-width: 1vw; */
-    height: 450px;
+    height: 480px;
     background-color: white;
 }
 .index-introduce img{ 
@@ -14,7 +14,7 @@
 }
 .svg{
     width: 100%;
-    height: 40px;
+    height: 70px;
     position: relative;
     left: 5px;
 }
@@ -36,10 +36,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto ;
-    height: auto;
     position: relative;
     top: -5%;
+    left: -1.5em;
 }
 .top #introduce-content-open{
     position: relative;
@@ -49,18 +48,17 @@
 .top #introduce-content-pg{
     width: 90%;
     position: relative;
-    top: -10%;
+    top: 17%;
     left: 5%;
 }
 .top #introduce-content-io{
     position: relative;
-    top: -10%;
+    top: -21%;
     left: 6%;
 }
 .top-opensource{
-    width: 19vw;
-    max-width: 380px;
-    height: 160px;
+    width: 18em;
+    height: 210px;
     background: #FFFFFF;
     box-shadow: 0px 0px 36px 0px rgba(4,0,0,0.09);
     border-radius: 3px;
@@ -77,9 +75,8 @@
     top: 40%;
 }
 .top-pgsql{
-    width: 20vw;
-    max-width: 401px; 
-    height: 160px;
+    width: 18em;
+    height: 210px;
     background: #FFFFFF;
     box-shadow: 0px 0px 36px 0px rgba(4,0,0,0.09);
     border-radius: 3px;
@@ -89,9 +86,8 @@
     justify-content: center;
 }
 .top-oracle{
-    width: 19vw;
-    max-width: 380px; 
-    height: 160px;
+    width: 18em;
+    height: 210px;
     background: #FFFFFF;
     box-shadow: 0px 0px 36px 0px rgba(4,0,0,0.09);
     border-radius: 3px;
@@ -102,16 +98,19 @@
 }
 .introduce-title{
     text-align: center;
-    font-size: 10px;
+    font-size: 1em;
     font-family: Microsoft YaHei;
-    font-weight: bold;
+    font-weight: 900;
     color: #333333;
-    line-height: 14px;
+}
+#PG-introduce-title{
+    position: relative;
+    top: 30px;
 }
 .introduce-content{
-    font-size: 0.6em;
+    font-size: 0.8em;
     font-family: Microsoft YaHei;
-    font-weight: 100;
+    font-weight: 400;
     color: #333333;
     text-align: center;
 }
@@ -122,17 +121,17 @@
     align-items: center;
     position: relative;
     top: 10%;
-    left: 3%;
+    left: 1.7%;
 }
 .buttom-Highgo #introduce-title-hg{
     position: relative;
-    left: 4%;
-    top: 35%;
+    left: 3%;
+    top: 40%;
 }
 .buttom-Highgo #introduce-content-hg{
-    width: 100%;        
+    width: 99%;        
     position: relative;
-    left: 3%;
+    left: 2%;
     top: 10%;
 }
 .buttom-customize #introduce-title-cust{
@@ -147,7 +146,7 @@
     top: -30%;
 }
 .buttom-customize{
-    width: 30vw;
+    width: 27.8em;
     max-width: 601px;
     height: 182px;
     background: #FFFFFF;
@@ -157,7 +156,7 @@
     justify-content: center;
 }
 .buttom-Highgo{
-    width: 30vw;
+    width: 27.8em;
     max-width: 601px;
     height: 182px;
     background: #FFFFFF;
@@ -252,6 +251,7 @@
       justify-content: center;
       position: relative;
       top: 20px;
+      left: 1px;
     }
     .buttom{
         width: 100%;

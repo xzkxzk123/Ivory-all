@@ -85,20 +85,24 @@ const config = {
           // },
           {
             label: 'Docs',
+            id: 'Doc',
             to: '/docs/next/intro',
           },
           {
             to: '/blog',
+            id: 'blog',
             label: 'Blog',
             position: 'left'
           },
           {
             label: 'Download',
+            id: 'Download',
             href: 'https://github.com/IvorySQL/IvorySQL/releases',
             position: 'left'
           },
           {
             label: 'Releases',
+            id: 'Releases',
             to: '/release',
             position: 'left'
           }, 
@@ -179,8 +183,9 @@ const config = {
 
           {
             type: 'localeDropdown',
+            dropdownItemsBefore: [],
             position: 'right',
-            dropdownActiveClassDisabled: true,
+            dropdownActiveClassDisabled: false,
             id: 'chen',
           },
           {

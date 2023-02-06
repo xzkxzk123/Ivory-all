@@ -19,7 +19,7 @@ export default class IndexIntroduce extends Component {
                 </div>
                 <div class="top-pgsql">
                     <Pgsql class="svg"></Pgsql>
-                    <span class="introduce-title"><Translate>Powered by PostgrSQL</Translate></span>
+                    <span class="introduce-title" id="PG-introduce-title"><Translate>Powered by PostgrSQL</Translate></span>
                     <span class="introduce-content" id="introduce-content-pg"><Translate>Based on the PostgreSQL, with full SQL, rock-solid reliability, and a massive ecosystem.</Translate></span>
                 </div>
                 <div class="top-oracle">

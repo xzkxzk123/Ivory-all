@@ -32,32 +32,30 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
   --ifm-background-surface-color: #4d4848;
 }
-#__docusaurus{
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 .navbar{
   background-color: white;
 }
 .navbar .navbar__items {
   border: white;
-  width: 15em;
+  width: 14em;
+}
+/* .navbar__inner div:nth-child(1){
+  font-size: 1em;
+  font-family: Microsoft YaHei;
+  font-weight: 600;
+  color: #333333;
+} */
+#chen{
+  font-size: 0.1em;
 }
 .navbar__link{
-  font-size: 0.6em;
+  font-size: 0.91em;
   font-family: Microsoft YaHei;
-  font-weight: 520;
+  font-weight: 600;
   color: #333333;
-  line-height: 21px;
 }
-.navbar__link svg{
+.navbar__link #text{
   display: none;
-}
-.text--truncate{
-  font-size: 1px;
-  width: 30%;
-  height: 20%;
 }
 #TtyForFree{
   width: 130px;
@@ -251,9 +249,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   position: relative;
   bottom: 100px;
 }
-/* .other-footer-bottom{
-  display: flex;
-} */
 .weixin-card{
   width: 130px;
   height: 100px;
@@ -262,7 +257,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   left: 1058px;
   top: 2210px;
   border-radius: 10px;
-  /* display: none; */
   visibility: hidden;
 }
 .backgruond-weixin:hover .weixin-card{
@@ -271,12 +265,29 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .navbar__inner .navbar__items--right div:nth-child(4){
   display: none;
 }
+.navbar__inner .navbar__items--right svg{
+  display: none;
+}
+#Download svg{
+  display: none;
+}
 .navbar__inner .navbar__items--right{ 
   position: relative;
   left: 16px;
 }
 #chen{
   width: 20px;
+}
+@media screen and (max-width: 1084px) {
+  .navbar__inner{
+    width: 100%;
+  }
+  .navbar__link{
+    font-size: 0.8em;
+    font-family: Microsoft YaHei;
+    font-weight: 600;
+    color: #333333;
+  }
 }
 @media screen and (max-width: 997px) {
   .air {
