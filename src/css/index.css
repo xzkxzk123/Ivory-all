@@ -280,7 +280,7 @@
   #Link{
     position: relative;
     left: -22%;
-    top: 20%;
+    top: 10%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -294,18 +294,19 @@
   }
   #Link{
     position: relative;
-    top: 10%;
+    top: 8%;
   }
 }
 @media screen and (max-width: 440px) {
   .header-font{
+    width: 20px;
     position: relative;
     top: 30px;
-    left: 40%;
+    left: 70%;
   }
   #Link{
     position: relative;
-    top: 30%;
+    top: 38%;
   }
 }
 @media screen and (max-width: 420px) {
@@ -318,14 +319,5 @@
   .homepage-header{
     background-image: url(../../svg/banner/banner-balloon-mobile\(1\).png);
     height: 14em;
-  }
-  .header-font{
-    position: relative;
-    top: 30px;
-    left: 50%;
-  }
-  #Link{
-    position: relative;
-    top: 35%;
   }
 }
