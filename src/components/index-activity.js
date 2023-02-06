@@ -17,9 +17,9 @@ export default class IndexActivity extends Component {
                     <div class="activity-content">
                         <div class="content-pgconf" id="content-pgconf">
                             <img src={require('../../svg/banner-pgconf2022.png').default} class="actionimg-pgconf" alt="" />
-                            <div class="activity-content-title">PostgresConf.CN 2022 中国PostgreSQL数据库生态大会</div>
-                            <div class="activity-content-title-small">12.09-11 / 北京中科院软件所</div>
-                            <p><Translate>The "2022 China PG Ecological Conference", organized by PG China, will be themed "Collaborative Progress", inviting experts, scholars, manufacturers and user representatives to have an in-depth discussion on the promotion and application of PG in the industry and region.</Translate> </p>
+                            <div class="activity-content-title"><Translate>China PostgreSQL Database Ecology Conference</Translate></div>
+                            <div class="activity-content-title-small"><Translate>17.02-19.02/ Institute of Software, Beijing Academy of Sciences</Translate></div>
+                            <p><Translate>'China PostgreSQL Database Ecology Conference' organized by PostgreConf.CN With the theme of 'Collaborative Progress', experts, scholars, representatives of manufacturers and users will be invited to have an in-depth discussion on the promotion and application of PG in the industry and region.</Translate> </p>
                             <Link 
                                 className="button" 
                                 id="link-pgconf"
@@ -30,9 +30,9 @@ export default class IndexActivity extends Component {
                         </div>
                         <div class="content-oneday" id="content-oneday">
                             <img src={require('../../svg/banner-activity-opensource.png').default} class="actionimg-oneday" id="actionimg-oneday" alt="" />
-                            <div class="activity-content-title">IvorySQL 2022 一日开源活动</div>
-                            <div class="activity-content-title-small">12.09-11 / 济南喜来登酒店</div>
-                            <p><Translate>We encouraged all developers to participate in the open source development of IvorySQL, contribute code or help the community submit and fix bugs, etc., and grow together with the project. Through this activity, we hope we encourage and maintain IvorySQL users, improve the IvorySQL project activity.</Translate></p>
+                            <div class="activity-content-title"><Translate>IvorySQL 2022 - One Day Open Source at IvorySQL</Translate></div>
+                            <div class="activity-content-title-small"><Translate>11.03-11.11</Translate></div>
+                            <p><Translate>One day open source at IvorySQL for all programmers of open source databases, and for all programmers who love and use open source or databases. We encouraged all developers to participate in the open source development of IvorySQL, contribute code or help the community submit and fix bugs, etc., and grow together with the project. Through this activity, we hope we encourage and maintain IvorySQL users, improve the IvorySQL project activity.</Translate></p>
                             <Link 
                                 className="button"
                                 id="link-oneday"
