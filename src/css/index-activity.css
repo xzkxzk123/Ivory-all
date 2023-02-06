@@ -3,20 +3,25 @@
     background: #F4F4F4;
 }
 .activity-title{
+    width: 100%;
     height: 200px;
     display: grid;
     justify-content: center;
     position: relative;
     top: 50px;
 } 
-.svg-Balloon{
-    width: 35px;
+#svg-Balloon{
+    width: 350px;
     height: 38px;
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 6.8em;
+    left: 1em;
+}
+#svg-Balloon div{
+    width: 45px;
 }
 .Recent-Activities{   
-    width:100%;
     height: 19px;
     font-size: 20px;
     font-family: Gilroy;
@@ -27,24 +32,21 @@
     left: 1.5em;
     top: -40px;
 }
-.hr-action{
-    width: 100%;
+#hr-action{
+    text-align: center;
     height: 16px;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-family: Microsoft YaHei;
     font-weight: 800;
     color: #333333;
     position: relative;
-    left: 1.3em; 
-    top: -70px;
+    left: 0.4em;
+    top: -50px;
 }
 .activity-content{
-    width: 80%;
     height: 70%;
     display: flex;
     justify-content: center;
-    position: relative;
-    left: 10vw;
 }
 .content-pgconf{
     width: 403px;
@@ -194,35 +196,6 @@
 #link-oneday:hover{
     background-color: #F9BB30;
 }
-@media screen and (min-width: 3900px) {
-    .activity-title{
-        height: 200px;
-        display: grid;
-        justify-content: center;
-        position: relative;
-        top: 50px;
-        left: 2em;
-    } 
-}
-@media screen and (min-width: 3200px) {
-    .activity-title{
-        height: 200px;
-        display: grid;
-        justify-content: center;
-        position: relative;
-        top: 50px;
-        left: 1em;
-    } 
-}
-@media screen and (min-width: 2300px) {
-    .activity-content{
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        left: 9vw;
-    }
-}
 @media screen and (max-width: 997px) {
     .index-activity{
         height: 1100px;
@@ -230,8 +203,6 @@
         justify-content: center;
     }
     #activity-title{
-        width: 100%;
-        /* height: 40%; */
         display: grid;
         justify-content: center;
         position: relative;
@@ -262,13 +233,13 @@
         width: 23em;
         height: 26em;
         position: relative;
-        left: 2.5em;
+        left: 0.1em;
     }
     #content-oneday{
         width: 23em;
         height: 26em;
         position: relative;
-        left: 2.5em;
+        left: 0.1em;
     }
     .content-pgconf .activity-content-title{
         width: 80%;
@@ -301,21 +272,5 @@
     }
     .activity-content-title-small{
         font-size: 0.8em;
-    }
-}
-@media screen and (max-width: 862px) {
-   #activity-title{
-       position: relative;
-       left: -30px;
-   }
-}
-@media screen and (max-width: 607px) {
-    .content-pgconf{
-        position: relative;
-        left: 6%;
-    }
-    .content-oneday{
-        position: relative;
-        left: 6%;
     }
 }

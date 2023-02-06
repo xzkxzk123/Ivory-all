@@ -8,11 +8,11 @@ export default class IndexActivity extends Component {
         return (
                 <div class="index-activity">
                     <div class="activity-title" id="activity-title">
-                        <div class="svg-Balloon">
-                            <Balloon></Balloon>
+                        <div class="svg-Balloon" id="svg-Balloon">
+                            <div><Balloon></Balloon></div>
                         </div>
                         {/* <div class="Recent-Activities">Recent Activities</div> */}
-                        <div class="hr-action">— Recent Activities —</div>
+                        <div class="hr-action" id="hr-action">— <Translate>Recent Activities</Translate> —</div>
                     </div>
                     <div class="activity-content">
                         <div class="content-pgconf" id="content-pgconf">
