@@ -292,7 +292,7 @@ const config = {
               {
                  html: `
                   <div class="other-footer">
-                    <div class="other-footer-title">Subscribe to Our Newsletter</div>
+                    <div class="other-footer-title">Subscribe to Our Mailing List</div>
                       <a href="https://lists.ivorysql.org/postorius/lists" id="other-footer-link">
                           <span class="other-footer-linkspan">Subscribe</span>
                       </a>
