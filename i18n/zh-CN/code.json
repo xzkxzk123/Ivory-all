@@ -300,5 +300,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Get Started": {
+    "message": "快速开始"
+  },
+  "View More": {
+    "message": "了解更多"
+  },
+  "The \"2022 China PG Ecological Conference\", organized by PG China, will be themed \"Collaborative Progress\", inviting experts, scholars, manufacturers and user representatives to have an in-depth discussion on the promotion and application of PG in the industry and region.": {
+    "message": "The \"2022 China PG Ecological Conference\", organized by PG China, will be themed \"Collaborative Progress\", inviting experts, scholars, manufacturers and user representatives to have an in-depth discussion on the promotion and application of PG in the industry and region."
+  },
+  "+": {
+    "message": " "
+  },
+  "More": {
+    "message": "更多"
+  },
+  "We encouraged all developers to participate in the open source development of IvorySQL, contribute code or help the community submit and fix bugs, etc., and grow together with the project. Through this activity, we hope we encourage and maintain IvorySQL users, improve the IvorySQL project activity.": {
+    "message": "We encouraged all developers to participate in the open source development of IvorySQL, contribute code or help the community submit and fix bugs, etc., and grow together with the project. Through this activity, we hope we encourage and maintain IvorySQL users, improve the IvorySQL project activity."
+  },
+  "How to Contribute?": {
+    "message": "如何贡献"
+  },
+  "IvorySQL community includes developers from around the world who develop and use open source databases. Everyone is welcome and encouraged to participate.": {
+    "message": "lvorySQL社区包括来自世界各地的开发和使用开源数据库的人员。 我们欢迎并鼓励大家参与。"
   }
 }

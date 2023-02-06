@@ -23,13 +23,14 @@
 }
 .contribute-middle-content{
     position: relative;
-    right: 3em;
+    right: -2em;
     display: grid;
     justify-content: center;
     align-items: center ;
 }
 .contribute-title{
-    width: 250px;
+    text-align: center;
+    width: 25em;
     height: 19px;
     font-size: 25px;
     font-family: Gilroy;
@@ -38,7 +39,7 @@
     line-height: 14px;
     position: relative;
     top: 84px;
-    left: 175px;
+    left: -20px;
 }
 .contribute-font{
     width: 456px;
@@ -85,25 +86,24 @@
     display: none;
    }
    #contribute-middle-content{
-    width: 60%;
     position: relative;
-    left: 11vw;
+    left: 1em;
     display: grid;
     justify-content: center;
    }
    .contribute-title{
-    width: 100%;
+    width: 300px;
     position: relative;
-    left: 11em;
-    font-size: 20px;
+    left: 2em;
+    top: 1em;
+    font-size: 30px;
     font-family: Gilroy;
     font-weight: 800;
    }
    .contribute-font{
-    text-align: center;
-    width: 110%;
     position: relative;
-    left: 2vw;
+    left: -1em;
+    top: -2em;
     font-size: 1.3em;
     font-family: Microsoft YaHei;
     font-weight: 400;
@@ -111,125 +111,33 @@
    #contribute-link{
     text-align: center;
     position: relative;
-    left: 18em;
-    top: -40%;
+    left: 10em;
+    top: 1%;
    }
 }
-@media screen and (max-width: 800px) {
-    #contribute-middle-content{
-        width: 60%;
-        position: relative;
-        left: 15%;
-        display: grid;
-        justify-content: center;
-    }
+@media screen and (max-width: 470px) {
     .contribute-title{
-        width: 100%;
+        width: 300px;
         position: relative;
-        left: 6em;
-        font-size: 20px;
+        left: -0.8em;
+        top: 1em;
+        font-size: 25px;
         font-family: Gilroy;
         font-weight: 800;
        }
-       #contribute-link{
-        text-align: center;
+    .contribute-font{
+        width: 300px;
         position: relative;
-        left: 12em;
-        top: -30%;
+        left: -1.5em;
+        top: -3em;
+        font-size: 1em;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
     }
-}
-@media screen and (max-width: 680px) {
-    #contribute-middle-content{
-        width: 60%;
-        position: relative;
-        left: 17%;
-        display: grid;
-        justify-content: center;
-    }
-    .contribute-title{
-        width: 100%;
-        position: relative;
-        left: 6em;
-        font-size: 20px;
-        font-family: Gilroy;
-        font-weight: 800;
-       }
     #contribute-link{
         text-align: center;
-        position: relative;
-        left: 11em;
-        top: -30%;
-    }
-}
-@media screen and (max-width: 590px) {
-    .contribute-title{
-        width: 100%;
         position: relative;
         left: 5em;
-        font-size: 20px;
-        font-family: Gilroy;
-        font-weight: 800;
-       }
-    #contribute-link{
-        text-align: center;
-        position: relative;
-        left: 10em;
-        top: -30%;
-    }
-}
-@media screen and (max-width: 520px) {
-    .contribute-title{
-        width: 100%;
-        position: relative;
-        left: 3.8em;
-        font-size: 20px;
-        font-family: Gilroy;
-        font-weight: 800;
-       }
-    #contribute-link{
-        text-align: center;
-        position: relative;
-        left: 8.5em;
-        top: -30%;
-    }
-}
-@media screen and (max-width: 480px) {
-    .contribute-title{
-        width: 100%;
-        position: relative;
-        left: 2.5em;
-        font-size: 20px;
-        font-family: Gilroy;
-        font-weight: 800;
-       }
-    #contribute-link{
-        text-align: center;
-        position: relative;
-        left: 7em;
-        top: -15%;
-    }
-}
-@media screen and (max-width: 435px) {
-    .contribute-title{
-        width: 100%;
-        position: relative;
-        left: 2em;
-        font-size: 20px;
-        font-family: Gilroy;
-        font-weight: 800;
-       }
-    #contribute-link{
-        text-align: center;
-        position: relative;
-        left: 6em;
-        top: -10%;
-    }
-}
-@media screen and (max-width: 376px) {
-    #contribute-link{
-        text-align: center;
-        position: relative;
-        left: 5.2em;
-        top: -10%;
+        top: 1%;
     }
 }

@@ -151,7 +151,7 @@ const config = {
                 to: 'customer-stories-page',
               },
               {
-                label: 'Shareing',
+                label: 'Sharing',
                 to: '/contribution-guidelines',
               },
               {

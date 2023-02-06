@@ -42,8 +42,8 @@ export default class IndexIntroduce extends Component {
                       className="button" 
                       id="link-hgcom"
                       to="https://www.highgo.com/">
-                        <span>+</span>
-                        <div>More</div>
+                        <span><Translate>+</Translate></span>
+                        <div><Translate>More</Translate></div>
                     </Link>
                 </div>
             </div>

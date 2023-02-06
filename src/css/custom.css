@@ -45,7 +45,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 15em;
 }
 .navbar__link{
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-family: Microsoft YaHei;
   font-weight: 520;
   color: #333333;
@@ -67,7 +67,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-size: 12px;
   font-family: Gilroy;
   font-weight:bolder;
-  padding: 7px 1px 1px 13px;
+  text-align: center;
+  padding: 0.65em 0em 0em 0em;
   position: relative;
   right: 1%;
 }
@@ -162,6 +163,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   margin: 30px 10px 30px 11px;
 }
 .other-footer-font{
+  display: none;
   position: relative;
   top: 40px;
 }
