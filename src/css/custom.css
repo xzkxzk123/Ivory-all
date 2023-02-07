@@ -22,12 +22,12 @@
   --ifm-font-color-base: hsl(263, 48%, 87%);
 */
 }
-.docusaurus-highlight-code-line {
+/* .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-}
+} */
 /* html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
   --ifm-background-surface-color: #4d4848;
@@ -71,9 +71,11 @@
 .dropdown--right{
   width: 60%;
 }
-.navbar__logo{
+.navbar__logo img{
   width: 120px;
-  height: 40px;
+  height: 60px;
+  position: relative;
+  top: -16px;
 }
 .title-logo{
   width: 100%;
@@ -91,13 +93,6 @@
   position: relative;
   right:10px;
 }
-/* .earth{
-  background-image: url(../../svg/icon-earth.svg);
-  width: 24px;
-  height: 24px;
-  position: relative;
-  right:52px;
-} */
 .footer{
   min-width: 1vw;
   background: #363131;
@@ -242,19 +237,6 @@
   line-height: 14px;
   position: relative;
   bottom: 100px;
-}
-.weixin-card{
-  width: 130px;
-  height: 100px;
-  background-color: #f4f4f5;
-  position: absolute;
-  left: 1058px;
-  top: 2210px;
-  border-radius: 10px;
-  visibility: hidden;
-}
-.backgruond-weixin:hover .weixin-card{
-  visibility: visible;
 }
 .navbar__inner .navbar__items--right div:nth-child(4){
   display: none;
