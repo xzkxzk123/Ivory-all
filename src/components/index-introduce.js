@@ -15,7 +15,7 @@ export default class IndexIntroduce extends Component {
                 <div class="top-opensource">
                     <OpenSource class="svg"></OpenSource>
                     <span class="introduce-title"><Translate>Open Source</Translate></span>
-                    <span class="introduce-content" id="introduce-content-open"><Translate>No Vendor Lock-In</Translate>。</span>
+                    <span class="introduce-content" id="introduce-content-open"><Translate>No Vendor Lock-In</Translate></span>
                 </div>
                 <div class="top-pgsql">
                     <Pgsql class="svg"></Pgsql>

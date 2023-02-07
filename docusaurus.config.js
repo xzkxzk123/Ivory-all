@@ -72,6 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        style: 'dark',
         logo: {
           alt: 'IvorySQL Logo',
           src: 'img/logo-black.svg',

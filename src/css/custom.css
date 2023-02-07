@@ -28,10 +28,10 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+/* html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
   --ifm-background-surface-color: #4d4848;
-}
+} */
 .navbar{
   background-color: white;
 }
@@ -39,12 +39,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   border: white;
   width: 14em;
 }
-/* .navbar__inner div:nth-child(1){
-  font-size: 1em;
-  font-family: Microsoft YaHei;
-  font-weight: 600;
-  color: #333333;
-} */
 #chen{
   font-size: 0.1em;
 }
