@@ -44,7 +44,7 @@ const config = {
       ({
         docs: {
           versions: {
-            current: {label: 'v.Devel',},
+            current: {label: 'Devel',},
           },
           sidebarPath: require.resolve('./sidebars.js'),
 //          editUrl: 'https://github.com/IvorySQL/Ivory-www/tree/main/docs',
