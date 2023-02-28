@@ -181,7 +181,7 @@
     border-radius: 3px;
     border: 1px;
     position: relative;
-    left: 40%;
+    left: 43.3%;
 }
 #link-hgcom span{
     display: inline;
@@ -223,19 +223,24 @@
         font-size: 1em;
     }
     .top-opensource{ 
-        height: 220px;
+        width: 23em;
+        height: 250px;
     }
     .top-pgsql{ 
-        height: 220px;
+        width: 23em;
+        height: 250px;
     }
     .top-oracle{ 
-        height: 220px;
+        width: 23em;
+        height: 250px;
     }
     .buttom-customize{
-        height: 282px;
+        width: 35em;
+        height: 272px;
     }
     .buttom-Highgo{
-        height: 282px;
+        width: 35em;
+        height: 272px;
     }
 }
 @media screen and (max-width: 997px) {
